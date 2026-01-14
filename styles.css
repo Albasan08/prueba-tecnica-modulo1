@@ -1,0 +1,17 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 24px;
+}
+
+#list {
+    padding-left: 0;
+}
+
+#list li {
+    list-style: none;
+    padding: 6px;
+    border-bottom: 1px solid #eee;
+}
+
+/* MALAS PRÁCTICAS: estilos en IDs rígidos y sin variables CSS */
+/* SOLUCIÓN: usar clases reutilizables y variables CSS para temas */
