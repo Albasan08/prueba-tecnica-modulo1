@@ -3,18 +3,29 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Module 1 - Demo</title>
+    <title>Contact list</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="main.css">
 </head>
 
 <body>
-    <h1>Contact List</h1>
-    <input id="nameInput" placeholder="Nombre">
-    <button id="addBtn">Agregar</button>
-    <ul id="list"></ul>
+    <section>
+        <header>
+            <h1>Contact List</h1>
+        </header>
 
-    <script src="app.js"></script>
+        <form id="formulario">
+            <input type="text" id="nameInput" name="nameInput" placeholder="Nombre">
+            <button id="addBtn" type="submit">Agregar</button>
+        </form>
+
+    </section>
+
+    <section>
+        <ul class="list" id="list"></ul>
+    </section> 
+
+    <script src="index.js"></script>
 </body>
 
 </html>
